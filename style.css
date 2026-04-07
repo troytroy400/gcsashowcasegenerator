@@ -3,7 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: "Source Code Pro", sans-serif;
-	color: #00AEEF;
+	color: #C64F4F;
 }
 
 body, html {
@@ -27,12 +27,12 @@ input[type="file"] {
 	grid-column: 1 / span 3;
 	grid-row: 1;
 	text-align: center;
-	text-shadow: 0px 0px 5px #00AEEF;
+	text-shadow: 0px 0px 5px #C64F4F;
 }
 
 .heading__image {
 	max-width: 40%;
-	filter: drop-shadow(0px 0px 100px #00AEEF);
+	filter: drop-shadow(0px 0px 100px #C64F4F);
 }
 
 .heading__title {
@@ -47,7 +47,7 @@ input[type="file"] {
 canvas {
 	grid-column: 2;
 	grid-row: 2;
-	border: 1px solid #00AEEF;
+	border: 1px solid #C64F4F;
 }
 
 .note {
@@ -73,7 +73,7 @@ canvas {
 	padding-inline: 0.5rem;
 	padding-block: 0.25rem;
 	background-color: transparent;
-	border: 1px solid #00AEEF;
+	border: 1px solid #C64F4F;
 	cursor: pointer;
 }
 
@@ -87,7 +87,7 @@ canvas {
 }
 
 .setting__button:hover {
-	background-color: #00AEEF;
+	background-color: #C64F4F;
 	color: black;
 }
 
@@ -96,7 +96,7 @@ canvas {
 	width: 100%;
 	background-color: transparent;
 	border-style: unset;
-	border-bottom: 1px solid #00AEEF;
+	border-bottom: 1px solid #C64F4F;
 }
 
 .setting__text-input:focus {
@@ -108,8 +108,8 @@ canvas {
 	bottom: 10px;
 	left: 10px;
 	font-size: 12px;
-	color: #00AEEF;
+	color: #C64F4F;
 	opacity: 0.6;
-	text-shadow: 0px 0px 5px #00AEEF;
+	text-shadow: 0px 0px 5px #C64F4F;
 	pointer-events: auto;
 }
